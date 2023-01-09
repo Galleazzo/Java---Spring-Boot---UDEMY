@@ -18,7 +18,7 @@ public class CalculadoraControler {
 	
 	@GetMapping(path = "subtrair")
 	public int subtrair(@RequestParam(name = "n1") int n1,@RequestParam(name = "n2") int n2) {
-		return n1 + n2;
+		return n1 - n2;
 	}
 	
 	
